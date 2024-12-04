@@ -1,0 +1,19 @@
+project_admin/
+├── public/             # Chứa các tài nguyên tĩnh (ảnh, logo, v.v.)
+├── src/
+│   ├── components/     # Các thành phần UI (dùng lại được)
+│   ├── core/           # Thư mục chứa core logic
+│   │   ├── api/        # Cấu hình API
+│   │   ├── hooks/      # Custom hooks
+│   │   ├── utils/      # Các hàm tiện ích
+│   │   ├── types/      # Định nghĩa TypeScript types
+│   │   └── i18n/       # Hỗ trợ đa ngôn ngữ
+│   ├── layouts/        # Cấu trúc giao diện chính (header, sidebar, footer)
+│   ├── pages/          # Các trang chính của ứng dụng
+│   ├── styles/         # CSS hoặc Tailwind cấu hình
+│   ├── app/            # App Router mới của Next.js
+│   └── config/         # File cấu hình
+├── tailwind.config.js  # Cấu hình Tailwind CSS
+├── next.config.js      # Cấu hình Next.js
+├── tsconfig.json       # Cấu hình TypeScript
+└── package.json        # Cấu hình npm package
